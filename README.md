@@ -23,24 +23,26 @@
 ### Imagem do Projetos
 
 #### Tela Full 1400px ++
-
+<img src="https://github.com/albsrocha/academiavivo/blob/main/img/full.png">
 
 #### Tela Full 1400px --
+<img src="https://github.com/albsrocha/academiavivo/blob/main/img/1400px.png    ">
 
 #### Tela Full 800px --
-
+<img src="https://github.com/albsrocha/academiavivo/blob/main/img/800px.png">
 
 #### Botão com leve efeito com linear-gradient
-
+<img src="https://github.com/albsrocha/academiavivo/blob/main/img/bot%C3%A3o.png">
 
 #### Menu com border-bottom zoom e padding para seleção
-
+<img src="https://github.com/albsrocha/academiavivo/blob/main/img/menu.png">
 
  ### Sobre mim 
 
- Ola me chamo Alberto Rocha sou estudante de CODING e amo tecnologia. Me aventuro sempre em ler e ter mais conhecimentos sobre:
+ ##### Ola me chamo Alberto Rocha sou estudante de CODING e amo tecnologia. Me aventuro sempre em ler e ter mais conhecimentos sobre:
 
-    <h4> Algumas habilidades e curiosidades. </h4>
+ <h4> Algumas habilidades e curiosidades. </h4>
+<p>
     * Hardware em geral  - Amo pesquisar de como está o mercado e entende o que aparece sendo promissor.
     * Linux (amo e uso há 15 anos) desde Arch Linux para instalar, configurar ou até Ubuntu. 
     * REACTJS - Tenho projetos postados no github.
@@ -53,7 +55,7 @@
     * Inglês -  Conheço a nível intermediário para conversas e tecnico ainda mais que é necessário para entendimento de algumas questões sobre uso de tecnologias e tutorias que busco para entender certos usos.
     * Não tenho medo de ir pesquisar, sei que não tenho conhecimento de tudo mas aprimorei em como pesquisar uma informação para utilizar.
     * Tenho pequenos vídeos no Youtube sobre a plataforma dex samsung e como usar para programar (nada muito profissional apenas para divulgar informação).
-
+</p>
 ## Autores
 
 <img src="https://avatars.githubusercontent.com/u/39682532?v=4" width=150>
