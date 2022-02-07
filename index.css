@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+}
+
+/*fundo*/
+
+body{
+    background: linear-gradient(to top right,rgba(0,0,8,0.5),rgba(24, 24, 31, 0.8),rgba(0, 0, 0, 0.8)), url(./img/fundo.jpg);
+    background-size: cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-position-y: 0;
+}
+
+/* header, menu, lista */
+
+.header{
+    height:8vh;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    text-transform: uppercase;
+    align-items:center;
+}
+#checkbox{
+    display:none
+
+}
+
+label[for="checkbox"]{
+    display:none;
+    font-size: 3rem;
+    text-align: center;
+}
+.logo{
+    display:flex;
+    font-size: 1.2rem;
+    letter-spacing: 0.5rem;
+    font-weight: 900;
+    cursor: pointer;
+    align-items: center;
+    gap:30px
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem
+}
+
+.menu-lista{
+    display: flex;
+    gap:10px;
+    letter-spacing: 0.4rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu-lista a{
+    text-decoration:none;
+    color:white;
+    transition: 1s ease-in;
+    padding:1.2rem;
+    transition:all 0.1s linear;
+}
+
+.menu-lista a:hover{
+    color: rgb(215,215,215);
+    border-bottom: 1px solid white;
+    font-weight: 600;
+}
+
+.principal{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    height: 92vh;
+    align-items:center;
+}
+.principal-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.texto-h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 5px 6px 8px rgba(0,0,0,0.65);
+}
+
+
+.texto-h2{
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-shadow: 5px 6px 8px rgba(0,0,0,0.65);
+}
+
+.texto-h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: 5px 6px 8px rgba(0,0,0,0.65);
+}
+
+.btn-main{
+    display: flex;
+    gap:60px;
+    justify-content:center;
+    margin-top: 2%;
+    width:30%
+}
+
+.btn{
+    margin-top: 1%;
+    padding: 4% 15%;
+    background:transparent;
+    border: 1px solid #fff;
+    color: #fff;    
+    cursor :pointer;
+    font-size:1rem;
+    border-radius: 40px;
+}
+
+.btn:hover{
+    background: linear-gradient(45deg, rgba(241,241,241,0.1),rgba(241,241,241,0.2));
+    border: 1px solid #fff;
+    color: #fff;    
+    cursor :pointer;
+}
+
+/*para telas menores */
+@media screen and (max-width:1400px){
+    .logo{
+        font-size: 1rem;
+        text-align: center;
+        margin-left:1%
+    }
+    .menu-lista{
+        display: flex;
+        gap:4px;
+        letter-spacing: 0.2rem;
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .menu-lista a {
+        font-size:1rem;
+    }
+    
+    .texto-h1{
+        font-size:1.9rem
+    }
+
+    .texto-h2{
+        font-size:1.4rem
+    }
+
+    .texto-h3{
+        font-size:1.2rem
+    }
+
+    .btn-main{
+        width:100%;
+    }
+
+    .btn{
+        padding:2% 7%
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .header{
+        display: flex;
+        width:100vw;
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top:10%;
+        cursor:pointer;
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .logo:hover ~ .menu-lista{
+        display:flex
+    }
+
+    label[for="checkbox"]{
+        display:flex;
+        cursor: pointer;
+    }
+
+    .menu-lista{
+        display: none;
+        width:100%;
+        flex-direction: column;
+        gap:70px;
+        text-align: center;
+    }   
+    .menu-lista a{
+        font-size:1.2rem
+    }
+    .menu-lista a:hover{
+        color: rgb(215,215,215);
+        border-bottom: 1px solid white;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    
+    .texto-h1{
+        font-size:1.6rem
+    }
+
+    .texto-h2{
+        font-size:1.2rem
+    }
+
+    .texto-h3{
+        font-size:1rem
+    }
+
+    .btn-main{
+        width:100%;
+    }
+
+    .btn{
+        padding:3% 10%
+    }
+}
