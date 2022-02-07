@@ -1,4 +1,4 @@
-<h1 align="center> ACADEMIA VIVO </h1>
+<h1 align="center"> ACADEMIA VIVO </h1>
 
 <p> O objetivo desse simples projeto é demonstrar o uso das tecnologias básicas para criar um site simples e que seja responsivo podendo atender usuário que buscam  uma página atrativa e direto ao ponto que precisamos. Utilizar o tema de academia reflete em questões de sáude que são amplamente discutidos atualmente trazendo qualidade de vida e longevidade.</p>
 
@@ -36,9 +36,9 @@
 #### Menu com border-bottom zoom e padding para seleção
 
 
-<h3> Sobre mim <h3> 
+ ### Sobre mim 
 
-<p> Ola me chamo Alberto Rocha sou estudante de CODING e amo tecnologia. Me aventuro sempre em ler e ter mais conhecimentos sobre:
+ Ola me chamo Alberto Rocha sou estudante de CODING e amo tecnologia. Me aventuro sempre em ler e ter mais conhecimentos sobre:
 
     <h4> Algumas habilidades e curiosidades. </h4>
     * Hardware em geral  - Amo pesquisar de como está o mercado e entende o que aparece sendo promissor.
@@ -53,7 +53,6 @@
     * Inglês -  Conheço a nível intermediário para conversas e tecnico ainda mais que é necessário para entendimento de algumas questões sobre uso de tecnologias e tutorias que busco para entender certos usos.
     * Não tenho medo de ir pesquisar, sei que não tenho conhecimento de tudo mas aprimorei em como pesquisar uma informação para utilizar.
     * Tenho pequenos vídeos no Youtube sobre a plataforma dex samsung e como usar para programar (nada muito profissional apenas para divulgar informação).
- </p>
 
 ## Autores
 
